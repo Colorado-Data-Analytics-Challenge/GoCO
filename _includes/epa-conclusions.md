@@ -8,3 +8,4 @@
 	<li>Discharge of inadequately treated hydraulic fracturing wastewater to surface water resources; and</li>
 	<li>Disposal or storage of hydraulic fracturing wastewater in unlined pits, resulting in contamination of groundwater resources.</li>
 </ul>
+<cite>Source: <a href="https://www.epa.gov/sites/production/files/2016-12/documents/hfdwa_executive_summary.pdf">Hydraulic Fracturing for Oil and Gas</a></cite>

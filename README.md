@@ -1,6 +1,6 @@
 **Team Name:** GoCO
 
-**Team Members:** [Becks Boone][10], [Lakshmi Kollengode][11]
+**Team Members:** [Lakshmi Kollengode][11] (lead), [Becks Boone][10]
 
 ## Purpose 1
 To understand the current water scenario in the state of CO with focus on use for Domestic and Irrigation purposes and how the changing population affects this.

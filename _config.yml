@@ -2,7 +2,7 @@ title: CO Water & Hydraulic Fracturing
 email: becky.sue.boone@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   In 2016 the EPA put out a report titled "Hydraulic Fracturing for Oil and Gas: Impacts from the Hydraulic Fracturing Water Cycle on Drinking Water Resources in the United States". This is our attempt at highlighting the activities fromt he report that impact the quality or quantiity of drinking water in Colorado.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/GoCO" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: boonrs
 github_username:  boonrs
@@ -25,7 +25,8 @@ plugins:
 #   - vendor/ruby/
 
 about:
-  label: "Last updated"
+  timestamp: 12/2018
+  label: "Data Last updated"
   description: "The information presented here is a representation of Open Data provided by the Colorado Information Marketplace."
 
 # Footer settings
@@ -33,6 +34,3 @@ footer:
   image: "/images/data-analytics.jpeg"
   alt: "Colorado Data Analytics Challenge"
   link: "https://github.com/Colorado-Data-Analytics-Challenge"
-
-
-
