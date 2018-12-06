@@ -11,7 +11,20 @@ layout: post
 <div class="container">
  	<div class="row">
 	    <div class="col maps">
-	    	<iframe width="800" height="600" src="" frameborder="0" allowFullScreen="true" class="pretend">Prtend a map is here</iframe>
+	    	<div class="card center" style="width: 36rem;">
+				  <div class="card-body">
+				    <h5 class="card-title">Data that could be used here</h5>
+				    <p class="card-text"> 
+				    	<ul class="list-none">
+				    		<li><a href="https://data.colorado.gov/Water/DWR-Well-Water-Level/hfwh-wsgi">Well Water Levels</a></li>
+				    		<li><a href="https://data.colorado.gov/browse?q=supply%20index&sortBy=relevance">Surface Water Supply Index</a></li>
+				    		<li><a href="http://climate.colostate.edu/data_access.html">Drought Conditions (CSU)</a></li>
+				    		<li><a href="https://droughtmonitor.unl.edu/Data/DataDownload/ComprehensiveStatistics.aspx">US Drought Monitor</a></li>
+				    		<li><a href="https://data.colorado.gov/Water/DWR-Well-Application-Permit/wumm-7awb">Well Density/Uses</a></li>
+				    	</ul>
+				    </p>
+				  </div>
+				</div>
 	    </div>
 	    <div class="col questions">
 	    	<h3>Risk Factors</h3>
