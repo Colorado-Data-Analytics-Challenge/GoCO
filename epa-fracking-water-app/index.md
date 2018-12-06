@@ -19,12 +19,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<!-- <div class="infographic clearfix">
-  {% for post in site.posts %}
-    <span class="anchor" id="{{post.section}}"></span>
-    <div class="info-group">
-      {% include section.html %}
-    </div>
-  {% endfor %}
-</div> -->

@@ -7,3 +7,4 @@
 	<li><a href="/">Produced Water Handling</a> the on-site collection and handling of water that returns to the surface after hydraulic fracturing and the transportation of that water for disposal or reuse; and</li>
 	<li><a href="/">Wastewater Disposal and Reuse</a> the disposal and reuse of hydraulic fracturing wastewater.</li>
 </ul>
+<cite>Source: <a href="https://www.epa.gov/sites/production/files/2016-12/documents/hfdwa_executive_summary.pdf">Hydraulic Fracturing for Oil and Gas</a></cite>

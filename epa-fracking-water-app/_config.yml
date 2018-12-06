@@ -25,7 +25,8 @@ plugins:
 #   - vendor/ruby/
 
 about:
-  label: "Last updated"
+  timestamp: 12/2018
+  label: "Data Last updated"
   description: "The information presented here is a representation of Open Data provided by the Colorado Information Marketplace."
 
 # Footer settings
@@ -33,6 +34,3 @@ footer:
   image: "/images/data-analytics.jpeg"
   alt: "Colorado Data Analytics Challenge"
   link: "https://github.com/Colorado-Data-Analytics-Challenge"
-
-
-
