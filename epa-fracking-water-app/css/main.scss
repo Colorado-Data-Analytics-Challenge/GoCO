@@ -24,6 +24,8 @@ a { color: $light-background-text-color; }
 
 a:hover {color: $light-background-text-color;}
 
+#map { height:600px; width:800px; }
+
 .main-content {
   position: relative;
   padding-top: 80px;
