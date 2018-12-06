@@ -12,6 +12,7 @@ layout: default
 </div> 
 
 <article class="post-content">
+	<h3>A. Domestic Uses</h3>
 	<p>Analysis suggests that around 81% of total public supply is for domestic uses.<cite><a href="https://waterdata.usgs.gov/co/nwis/water_use/">(Source: Water Use for Colorado, Data for the years 2000, 2005 and 2010 is missing.)</a></cite></p>
 
 	<table class="table table-bordered table-striped">
@@ -181,11 +182,16 @@ layout: default
 	<p>97% of the Urban population is served by public supply.</p>
 
 	<em> Now, let us look at a hypothetical situation:</em>
-	<h3>Surface Water In CO</h3>
+	<h3>B. Surface Water In CO</h3>
 
-	<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiODNkNTk5ZmItZDY4Ny00ZjExLWFjNzgtYzBjMTZjODFhMGZhIiwidCI6ImNkZDU5ZGMwLTZjYzMtNDI2OS05NWEzLWJhNThjZTYxNmI0MiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+<!-- 	<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiODNkNTk5ZmItZDY4Ny00ZjExLWFjNzgtYzBjMTZjODFhMGZhIiwidCI6ImNkZDU5ZGMwLTZjYzMtNDI2OS05NWEzLWJhNThjZTYxNmI0MiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe> -->
+	<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZjU5N2MzNTYtOGRjNi00ZWQ3LThlNDYtMjQyNDQzZWMyNGEyIiwidCI6ImNkZDU5ZGMwLTZjYzMtNDI2OS05NWEzLWJhNThjZTYxNmI0MiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
 
-	<h3>Irrigation</h3>
+	<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZGUxMzljNDMtOGQwYS00OTAwLWJhMzMtZTMwN2E5MDMwOGIxIiwidCI6ImNkZDU5ZGMwLTZjYzMtNDI2OS05NWEzLWJhNThjZTYxNmI0MiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+
+	<br />
+	<br />
+	<h3>C. Irrigation</h3>
 	<p>Analysis suggests that more than 98% of irrigation water use is in Rural and Frontier counties.</p>
 	<ul>
 		<li>Around 85% of the total irrigation supply comes from surface-water.</li>
@@ -410,6 +416,7 @@ layout: default
 
 	<img class="rounded center" alt="graph of loss of water from a channel by type" src="{{ '/images/g1-total-sprinkler-irrigation.jpg' | relative_url}}">
 
+	<h3>D. Conveyance Loss</h3>
 	<p><b>Conveyance Loss:</b> Loss of water from a channel or pipe during conveyance, including losses due to seepage, leakage, evaporation and transpiration by plants growing in or near the channel. Water is not available for further use. <cite><a href="https://definedterm.com/conveyance_loss_distribution_loss">(Source: Definition of Conveyance Loss)</a></cite></p>
 
 	<img class="rounded center" alt="graph of overall loss of water from a channel in 10 years" src="{{ '/images/g2-year-total-conveyance-loss.jpg' | relative_url}}">
@@ -425,10 +432,11 @@ layout: default
 		</ol>
 	</p>
 
-	<p><h3>Results</h3>
+	<p>
+		<h3>Results</h3>
 		<ol>
 			<li>The model has R 2 of 0.96 which means 96% of the variability in the target or dependent variable is
-explained by the independent variables.</li>
+	explained by the independent variables.</li>
 			<li>The variable ‘Total sprinkler irrigation, in thousand acres’ has a negative coefficient. This means that for an increase in acres of irrigation by sprinklers, there is a decrease in conveyance loss. This suggests that efficient irrigation methods could minimize conveyance losses.</li>
 		</ol>
 		<div class="card center" style="width: 36rem;">
@@ -445,11 +453,10 @@ explained by the independent variables.</li>
 		  </div>
 		</div>
 	</p>
-
 	<div class="container">
 		<div class="row">
 		  <div class="col">
-		  	<h3>Model in Detail</h3>
+				<h3>Model in Detail</h3>
 				<p>Fields:
 					<ul>
 						<li><b>Target Variable:</b> Total conveyance loss, in Mgal/d</li>
@@ -464,33 +471,32 @@ explained by the independent variables.</li>
 						</li>
 					</ul>
 				</p>
-		  </div>
-		  <div class="col">
-		  	<h3>Model Summary</h3>
-				<table class="table">
-					<thead>
-						<tr>
-							<th scope="col" class="center">R</th>
-							<th scope="col">R Square</th>
-							<th scope="col">Adjusted R Square</th>
-							<th scope="col">Std. Error of the Estimate</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">.980</th>
-							<td>0.96</td>
-							<td>0.958</td>
-							<td>16.937033</td>
-						</tr>
-					</tbody>
-				</table>
-			  </div>
 			</div>
+			<div class="col">
+				<img class="rounded center" alt="equation variables" src="{{ '/images/g3-equation-variables.PNG' | relative_url}}">
+			</div>
+		</div>
 	</div>
-	
 
-	
+	<h3>Model Summary</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col" class="center">R</th>
+				<th scope="col">R Square</th>
+				<th scope="col">Adjusted R Square</th>
+				<th scope="col">Std. Error of the Estimate</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">.980</th>
+				<td>0.96</td>
+				<td>0.958</td>
+				<td>16.937033</td>
+			</tr>
+		</tbody>
+	</table>
 
 	<p>96% of the variability in the target or dependent variable is explained by the independent variables.</p>
 
@@ -558,8 +564,6 @@ explained by the independent variables.</li>
 			</tr>
 		</tbody>
 	</table>
-
-	<img class="rounded center" alt="equation variables" src="{{ '/images/g3-equation-variables.PNG' | relative_url}}">
 
 	<p>At 95% confidence interval, given the Sig. values it shows that all the independent variables are significant. So we are 95% certain that these variables affect the dependent variable ‘Total conveyance loss, in Mgal/d’</p>
 
