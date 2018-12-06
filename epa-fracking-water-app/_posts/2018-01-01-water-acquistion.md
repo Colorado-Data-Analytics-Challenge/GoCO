@@ -8,3 +8,19 @@ href: http://www.google.com
 layout: post
 ---
 
+<div class="container">
+ 	<div class="row">
+	    <div class="col maps">
+	    	<iframe width="800" height="600" src="" frameborder="0" allowFullScreen="true" class="pretend">Prtend a map is here</iframe>
+	    </div>
+	    <div class="col questions">
+	    	<h3>Risk Factors</h3>
+	    	<ul>
+	    		<li>Is your area experiencing a time of low water availability? Look at the drought data and well water levels.</li>
+	    		<li>Are there a high concentration of active wells?</li>
+	    		<li>Is there a large percentage of water use going towards oil and gas?</li>
+	    		<li>If the answer to all of these questions is no, your water is at less risk of impacts from hydraulic fracturing.</li>
+	    	</ul>
+	    </div>
+ 	</div>
+</div>

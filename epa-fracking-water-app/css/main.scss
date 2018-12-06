@@ -68,10 +68,61 @@ font-size: 80%;
 color: brown;
 text-align: right;
 } 
+
+.align-bottom {
+      vertical-align: bottom;
+}
+
+.table .thead-dark th {
+  background-color: #26788e;
+}
+
+.table .thead-dark th {
+  border-color: #26788e;
+}
+
+.list-lower-letters {
+  list-style-type: lower-alpha;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.navbar-right .nav-item{
+  font-size: .9rem;
+}
+
+cite {
+  font-size: .7rem;
+}
+
+cite:before {
+    content:"\a";
+    white-space: pre;
+}
+
+.post-content table, .post-content img, .post-content .container{ 
+  margin-bottom: 20px;
+}
+
+.post-content h3 {
+  color: $light-background-text-color;
+}
 .emphasize {
   font-weight: bold;
   color: $light-background-text-color;
 }
+
+.questions > ul > li {
+  font-size: .9rem;
+  padding: 1rem;
+}
+
+.questions > h3 {
+  color: $light-background-text-color;
+}
+
 .jumbotron {
   background-color: $primary-color;
   text-align: left;
